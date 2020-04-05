@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 72px;
+  color: #0ccac4;
+  text-transform: capitalize;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
